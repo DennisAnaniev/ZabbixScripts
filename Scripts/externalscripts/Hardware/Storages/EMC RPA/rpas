@@ -1,0 +1,127 @@
+
+All RPAs: 
+  BR7-RPA: 
+    Cluster's RPAs: 
+      RPA 1: 
+        Traffic: 
+          Application throughput: 
+            SAN: 49584 bps
+            WAN: None
+          Application incoming writes: 1
+          Compression ratio: None
+        Compression CPU usage: 0.00%
+        Computed connection: 
+          SM22_RPA: 
+            Latency (ms): 0
+            Packet loss: 0.00%
+      RPA 2: 
+        Traffic: 
+          Application throughput: 
+            SAN: 86304 bps
+            WAN: None
+          Application incoming writes: 2
+          Compression ratio: None
+        Compression CPU usage: 0.00%
+        Computed connection: 
+          SM22_RPA: 
+            Latency (ms): 0
+            Packet loss: 0.00%
+      RPA 3: 
+        Traffic: 
+          Application throughput: 
+            SAN: 0 bps
+            WAN: None
+          Application incoming writes: 0
+          Compression ratio: None
+        Compression CPU usage: 0.00%
+        Computed connection: 
+          SM22_RPA: 
+            Latency (ms): 0
+            Packet loss: 0.00%
+      RPA 4: 
+        Traffic: 
+          Application throughput: 
+            SAN: 0 bps
+            WAN: None
+          Application incoming writes: 0
+          Compression ratio: None
+        Compression CPU usage: 0.00%
+        Computed connection: 
+          SM22_RPA: 
+            Latency (ms): 0
+            Packet loss: 0.00%
+  SM22_RPA: 
+    Cluster's RPAs: 
+      RPA 1: 
+        Traffic: 
+          Application throughput: 
+            SAN: 143 Mbps
+            WAN: 
+              BR7-RPA: 36 Mbps
+          Application incoming writes: 2471
+          Init throughput:
+            SAN: 0 bps
+            WAN: 
+              BR7-RPA: 0 bps
+          Compression ratio: 
+            BR7-RPA: 0.999868
+        Compression CPU usage: 0.00%
+        Computed connection: 
+          BR7-RPA: 
+            Latency (ms): 0
+            Packet loss: 0.00%
+      RPA 2: 
+        Traffic: 
+          Application throughput: 
+            SAN: 28 Mbps
+            WAN: 
+              BR7-RPA: 36 Mbps
+          Application incoming writes: 449
+          Init throughput:
+            SAN: 0 bps
+            WAN: 
+              BR7-RPA: 0 bps
+          Compression ratio: 
+            BR7-RPA: 0.999868
+        Compression CPU usage: 0.00%
+        Computed connection: 
+          BR7-RPA: 
+            Latency (ms): 0
+            Packet loss: 0.00%
+      RPA 3: 
+        Traffic: 
+          Application throughput: 
+            SAN: 0 bps
+            WAN: 
+              BR7-RPA: 31 Mbps
+          Application incoming writes: 0
+          Init throughput:
+            SAN: 0 bps
+            WAN: 
+              BR7-RPA: 0 bps
+          Compression ratio: 
+            BR7-RPA: 1.00012
+        Compression CPU usage: 0.00%
+        Computed connection: 
+          BR7-RPA: 
+            Latency (ms): 0
+            Packet loss: 0.00%
+      RPA 4: 
+        Traffic: 
+          Application throughput: 
+            SAN: 0 bps
+            WAN: 
+              BR7-RPA: 27 Mbps
+          Application incoming writes: 0
+          Init throughput:
+            SAN: 0 bps
+            WAN: 
+              BR7-RPA: 0 bps
+          Compression ratio: 
+            BR7-RPA: 1.00012
+        Compression CPU usage: 0.00%
+        Computed connection: 
+          BR7-RPA: 
+            Latency (ms): 0
+            Packet loss: 0.00%
+

@@ -1,0 +1,360 @@
+Message-ID: <72346123.215.1565070119335.JavaMail.confluence@rsb-aspmosconf1.rosbank.rus.socgen>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_214_1608173439.1565070119331"
+
+------=_Part_214_1608173439.1565070119331
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Mass creation hosts in Zabbix using PyZabbix</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Mass creation hosts in Zabbix using PyZabbix</h1>
+    <div class=3D"Section1">
+        <p>You often need to add a big nimber of similar hosts in Zabbix. &=
+nbsp;</p>
+<p>For increaing this process you can use this Python script.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Mass addition host in Zabbix</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Midnight" data-theme=3D"Midnight">#!/usr/bin/py=
+thon
+from pyzabbix import ZabbixAPI;
+from pyzabbix import ZabbixAPIException
+import sys
+zapi =3D ZabbixAPI('http://10.45.129.32/zabbix/api_jsonrpc.php')
+zapi.login("login", "Password")
+print "Connected to Zabbix API Version %s" % zapi.api_version()
+def create_host(name, ip, dns):
+    zapi.host.create(
+    {
+=09    "host": name,
+=09=09    "interfaces": [{
+=09=09    "type": 1,
+=09=09    "main": 1,
+=09=09    "useip": 0,
+=09=09    "ip": ip,
+=09=09    "dns": dns,
+=09=09    "port": "10050"
+=09=09    },
+=09=09    {
+=09=09    "type": 1,
+=09=09    "main": 0,
+=09=09    "useip": 1,
+=09=09    "ip": ip,
+=09=09    "dns": dns,
+=09=09    "port": "10050"
+=09=09     }
+=09=09    ],
+=09=09    "groups": [
+=09=09=09=09{
+=09=09=09=09    "groupid": "31"
+=09=09=09=09},
+=09=09=09=09{
+=09=09=09=09    "groupid": "260"
+=09=09=09=09},
+=09=09=09=09{
+=09=09=09=09    "groupid": "6"
+=09=09=09=09},
+=09=09=09=09],
+=09=09    "templates": [
+=09=09=09=09    #{
+=09=09=09=09#=09"templateid": "12672"
+=09=09=09=09#    },
+=09=09=09=09    {
+=09=09=09=09=09"templateid": "12633"
+=09=09=09=09    },
+=09=09=09=09#    {
+=09=09=09=09#=09"templateid": "10104"
+=09=09=09=09#    },
+=09=09=09=09#    {
+=09=09=09=09#=09"templateid": "12813"
+=09=09=09=09#    },
+=09=09=09=09   =20
+=09=09=09   =20
+=09=09=09    ]
+}
+)
+for line in open("/home/rb052689/Downloads/siebel.csv"):
+    split =3D line.split(';')
+    split =3D [item.strip() for item in split]
+    name =3D split[0]
+    ip =3D split[1]
+    dns =3D split[2]
+    try:
+=09create_host(name, ip, dns)
+        print(('{0}: ok').format(name))
+    except ZabbixAPIException:
+=09print(('{0}: Dup').format(name))
+=09continue</pre>=20
+</div>
+</div>
+<p>CSV file example</p>
+<p>&nbsp;<img height=3D"250" style=3D"margin: 2px; border: 1px solid #ddd; =
+box-sizing: border-box; vertical-align: text-bottom;" src=3D"a03b90754df0bd=
+d706c2496d6c3599cc" width=3D"250"></p>
+<p>Main templates and hostgroups are described below:</p>
+<pre>"groupid": "6"  Virtual Machines</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+</body>
+</html>
+------=_Part_214_1608173439.1565070119331
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/a03b90754df0bdd706c2496d6c3599cc
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAC8klEQVR42u3ca0/iQBiG4dcemFJpKQcFwiH+/19ldj9sdDVGXalI
+2m5L26Vo3IVkpbS9L2MyjDOpDzMMhU4qAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV
+cHacw1hhqO/ZNNC01xo9wZZhWnu3NTWrRtFb5iGtzdZR/intKEfZe7Zv6GGNRl19afOTHvWT1ODo
++lGOYgTva9xxa6UNL6LVfs1rFN1Z6v5bJMEvZ1Va9HKWuZGapIWJckpb5kqJ7hqLvNjV3Uat8D3v
+W1587PbKGg+jjIMu/W15ZUitvZvBeuFDk6t//Ht9J3zbiLYPnkobdc7miE50ohP9JD7CM+pEJzrR
+iU50ohOd6EQ/rei2bTcpehJ2nV1J1s2ltO2mRPcfrXiwvfSBE4pEj80Z9a4svYexJN/I3y9FuqWM
+eikXniLtVZ5s/VwbPjhRHN30w781r1P0zrO9ljdx9BfteS1y7turEqKX873EXBW2y1ja9B/N6xRd
+BsZ5XnTUQJoUXeaaN7LabWvkGVNpVnRxzY6hekbHPJOmRf+PzTmHJ/qJRQ8O2vppBTWKrh0UJtDq
+FD06ZHvwkaKzKRwAAAAAAAAAUA9Xn5Q/qzkOrrl9revmRXeUipSZTumBUqqTVPbjwlCKNZlB3Lif
+d3JVsqHMVlW9RY3q2zLRN9HHaiKzJOmVWsgieT62NXnyqcyMP502T8+wV9VXUz5mcbjN3QlcFZfn
+kuygKtZkjcc7nQbJ1oqPO4yqMuHN6MKcZeW3eB73k+uI99nvtib1+rTTyZdZ/ONXdhFdeLpqbcY1
+yveCXqWv4WJNNtr2bqfLlrQuK/0WMkundLqySXHCD99FH+92mihRo8qu8Gpu29mMvnw2bXuarFq3
+8TJ3GxZr0vidh3iZu9h2+iGe3FQ2eu/2JQjSuxJ8H2pBcJcsXeOb6MZZF2tS9+Fd9DModIr8iBNh
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwh98Ek40B1OdTlgAAAABJRU5ErkJggg==
+------=_Part_214_1608173439.1565070119331--

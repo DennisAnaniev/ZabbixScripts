@@ -1,0 +1,532 @@
+Message-ID: <1130448739.233.1565070206657.JavaMail.confluence@rsb-aspmosconf1.rosbank.rus.socgen>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_232_732465727.1565070206654"
+
+------=_Part_232_732465727.1565070206654
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Zabbix Server 4.0.1 with Oracle back-end</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Zabbix Server 4.0.1 with Oracle back-end</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"ZabbixServer4.0.1withOracleback-end-Step-by-stepguideforR=
+HEL7.4x86_64">Step-by-step guide for RHEL 7.4 x86_64</h2>
+<ol>
+<li><p>Make sure that your host is present&nbsp;in /etc/hosts</p></li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Depedencies install</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">yum install=
+ unixODBC unixODBC-devel OpenIPMI gcc php php-cli php-ldap libxml2-devel ne=
+t-snmp net-snmp-devel OpenIPMI-libs ncurses openldap-devel openldap libssh2=
+ libcurl-devel java-1.8.0-openjdk-devel autoconf automake php-gd dejavu-fon=
+ts-common-2.33-6 dejavu-sans-fonts-2.33-6 fping fontpackages-filesystem-1.4=
+4 iksemel-1.4-2 iksemel-devel-1.4-2 iksemel-utils-1.4-2 libssh2-devel-1.4.3=
+-8 OpenIPMI-devel-2.0.19-11 php-bcmath-5.4.16-23 php-devel-5.4.16-23 php-mb=
+string-5.4.16-23 OpenIPMI-devel libssh2-devel libevent-devel</pre>=20
+</div>
+</div></li>
+<li><p>Download and install Oracle Instant Client 11.2 Linux x86_64 RPM pac=
+kages from&nbsp;<a href=3D"http://www.oracle.com/technetwork/topics/linuxx8=
+6-64soft-092277.html" class=3D"external-link" rel=3D"nofollow">http://www.o=
+racle.com/technetwork/topics/linuxx86-64soft-092277.html</a></p></li>
+<li>Create&nbsp;and populate tnsnames.ora&nbsp;file: /usr/lib/oracle/11.2/c=
+lient64/network/admin/tnsnames.ora (example:&nbsp;<a class=3D"createlink" h=
+ref=3D"/pages/createpage.action?spaceKey=3DCBS&amp;title=3DZabbix+Server+3.=
+2+with+Oracle+back-end"><span style=3D"color: rgb(0,102,204);">tnsnames.ora=
+</span></a>)</li>
+<li>Adjust&nbsp;your environment variables:
+<ol>
+<li>ORACLE_BASE=3D/usr/lib/oracle</li>
+<li>ORACLE_HOME=3D$ORACLE_BASE/11.2/client64</li>
+<li>TNS_ADMIN=3D$ORACLE_HOME/network/admin</li>
+<li>echo 'ORACLE_BASE=3D/usr/lib/oracle<br>ORACLE_HOME=3D$ORACLE_BASE/11.2/=
+client64<br>TNS_ADMIN=3D$ORACLE_HOME/network/admin<br>export ORACLE_BASE OR=
+ACLE_HOME TNS_ADMIN &gt;&gt; /etc/sysconfig/httpd # for Apache</li>
+</ol></li>
+<li><p>Enable Oracle library path:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">echo '/usr/=
+lib/oracle/11.2/client64/lib' &gt; /etc/ld.so.conf.d/oracle-x86_64.conf # f=
+or user environment</pre>=20
+</div>
+</div></li>
+<li><p>Make symlinks for Oracle header files:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">mkdir $ORAC=
+LE_HOME/rdbms
+ln -s /usr/include/oracle/11.2/client64 $ORACLE_HOME/rdbms/public</pre>=20
+</div>
+</div><p><a href=3D"/download/attachments/106332723/sqlnet.ora?version=3D1&=
+amp;modificationDate=3D1543301968670&amp;api=3Dv2" data-linked-resource-id=
+=3D"106332730" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"attachment" data-linked-resource-default-alias=3D"sqlnet.ora" data-link=
+ed-resource-content-type=3D"application/octet-stream" data-linked-resource-=
+container-id=3D"106332723" data-linked-resource-container-version=3D"1">sql=
+net.ora</a>&nbsp;<a href=3D"/download/attachments/106332723/tnsnames.ora?ve=
+rsion=3D1&amp;modificationDate=3D1543301968616&amp;api=3Dv2" data-linked-re=
+source-id=3D"106332729" data-linked-resource-version=3D"1" data-linked-reso=
+urce-type=3D"attachment" data-linked-resource-default-alias=3D"tnsnames.ora=
+" data-linked-resource-content-type=3D"application/octet-stream" data-linke=
+d-resource-container-id=3D"106332723" data-linked-resource-container-versio=
+n=3D"1">tnsnames.ora</a>&nbsp;</p><p>&nbsp;</p></li>
+<li>Test your database connection using sqlplus</li>
+<li><p>Install oci8 extension for PHP:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>OCI8</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">Download oc=
+i8-1.4.7.tgz from https://pecl.php.net/package/oci8 (2.1.0 failed to compil=
+e against PHP 5.4)
+tar zxvf oci8-1.4.7.tgz &amp;&amp; cd oci8-1.4.7
+phpize
+chmod 740 configure
+./configure
+make &amp;&amp; make install
+echo 'extension=3Doci8.so' &gt; /etc/php.d/oci8.ini</pre>=20
+</div>
+</div></li>
+<li><p>Install Zabbix server(<span>You can get the very latest version of Z=
+abbix by compiling it from the sources. In this case we used latest actual =
+version</span>):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Install Zabbix server</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">tar zxvf  z=
+abbix-3.0.10.tar.gz &amp;&amp; cd zabbix-3.0.10
+./configure --enable-server --enable-agent --with-oracle=3D$ORACLE_HOME --w=
+ith-oracle-lib=3D/usr/lib/oracle/11.2/client64/lib --with-oracle-include=3D=
+/usr/include/oracle/11.2/client64 --with-net-snmp --with-openipmi --with-ld=
+ap --with-unixodbc --with-libxml2 --with-openssl --with-ssh2 --with-libcurl=
+ --enable-java
+make &amp;&amp; make install
+cp -a frontends/php /var/www/html/zabbix</pre>=20
+</div>
+</div></li>
+<li><p>Edit&nbsp;/etc/httpd/conf.d/zabbix.conf</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<thead>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=D0=A2=D1=80=D0=B5=
+=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=D0=9C=D0=B8=D0=BD=
+=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5 =D0=B7=D0=BD=D0=B0=D1=87=
+=D0=B5=D0=BD=D0=B8=D0=B5</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=D0=9E=D0=BF=D0=B8=
+=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><em>=D0=92=D0=B5=D1=80=D1=81=D0=B8=D1=8F PHP</em=
+></td>
+<td class=3D"confluenceTd">5.4.0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><em>PHP =D0=BE=D0=BF=D1=86=D0=B8=D1=8F memory_li=
+mit</em></td>
+<td class=3D"confluenceTd">2048=D0=9C=D0=91</td>
+<td class=3D"confluenceTd">=D0=92 php.ini:<br>memory_limit =3D 128M</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><em>PHP =D0=BE=D0=BF=D1=86=D0=B8=D1=8F post_max_=
+size</em></td>
+<td class=3D"confluenceTd">2048=D0=9C=D0=91</td>
+<td class=3D"confluenceTd">=D0=92 php.ini:<br>post_max_size =3D 16M</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><em>PHP =D0=BE=D0=BF=D1=86=D0=B8=D1=8F upload_ma=
+x_filesize</em></td>
+<td class=3D"confluenceTd">2=D0=9C=D0=91</td>
+<td class=3D"confluenceTd">=D0=92 php.ini:<br>upload_max_filesize =3D 2M</t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><em>PHP =D0=BE=D0=BF=D1=86=D0=B8=D1=8F max_execu=
+tion_time</em></td>
+<td class=3D"confluenceTd">300 =D1=81=D0=B5=D0=BA=D1=83=D0=BD=D0=B4 (=D0=B7=
+=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F 0 =D0=B8 -1 =D1=80=D0=B0=D0=B7=
+=D1=80=D0=B5=D1=88=D0=B5=D0=BD=D1=8B)</td>
+<td class=3D"confluenceTd">=D0=92 php.ini:<br>max_execution_time =3D 300</t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><em>PHP =D0=BE=D0=BF=D1=86=D0=B8=D1=8F max_input=
+_time</em></td>
+<td class=3D"confluenceTd">300 =D1=81=D0=B5=D0=BA=D1=83=D0=BD=D0=B4 (=D0=B7=
+=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F 0 =D0=B8 -1 =D1=80=D0=B0=D0=B7=
+=D1=80=D0=B5=D1=88=D0=B5=D0=BD=D1=8B)</td>
+<td class=3D"confluenceTd">=D0=92 php.ini:<br>max_input_time =3D 300</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><em>PHP =D0=BE=D0=BF=D1=86=D0=B8=D1=8F session.a=
+uto_start</em></td>
+<td class=3D"confluenceTd">=D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D0=B0 =D0=B1=D1=
+=8B=D1=82=D1=8C =D0=BE=D1=82=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B0</td>
+<td class=3D"confluenceTd">=D0=92 php.ini:<br>session.auto_start =3D 0</td>
+</tr>
+</tbody>
+</table>
+</div></li>
+<li><span>Installing frontend(<span>In your browser, open Zabbix&nbsp;</spa=
+n>URL<span>: http://&lt;server_ip_or_name&gt;/zabbix. <span>You should see =
+the first screen of the frontend installation wizard</span></span>)</span><=
+span><br></span><span class=3D"confluence-embedded-file-wrapper"><img class=
+=3D"confluence-embedded-image confluence-external-resource" alt=3D"install_=
+1.png" src=3D"https://www.zabbix.com/documentation/3.0/_media/manual/instal=
+lation/install_1.png?cache=3D&amp;w=3D868&amp;h=3D522&amp;tok=3D201c4a" dat=
+a-image-src=3D"https://www.zabbix.com/documentation/3.0/_media/manual/insta=
+llation/install_1.png?cache=3D&amp;w=3D868&amp;h=3D522&amp;tok=3D201c4a"></=
+span><br><span><br></span></li>
+<li><span>Make sure that all software prerequisites are met.</span><br><spa=
+n><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluence=
+-embedded-image confluence-external-resource" src=3D"https://www.zabbix.com=
+/documentation/3.2/_media/manual/installation/install_2.png?w=3D550&amp;tok=
+=3D0b5ea8" data-image-src=3D"https://www.zabbix.com/documentation/3.2/_medi=
+a/manual/installation/install_2.png?w=3D550&amp;tok=3D0b5ea8"></span></span=
+></li>
+<li><span><span>Enter details for connecting to the database. Zabbix databa=
+se must already be created.</span></span></li>
+<li><span><span><span>Enter Zabbix server details.</span></span></span><br>=
+<span><span><span><span class=3D"confluence-embedded-file-wrapper"><img cla=
+ss=3D"confluence-embedded-image confluence-external-resource" src=3D"https:=
+//www.zabbix.com/documentation/3.2/_media/manual/installation/install_4.png=
+?w=3D550&amp;tok=3Db0e91d" data-image-src=3D"https://www.zabbix.com/documen=
+tation/3.2/_media/manual/installation/install_4.png?w=3D550&amp;tok=3Db0e91=
+d"></span></span></span></span></li>
+<li><span><span><span><span>Download the configuration file and place it un=
+der conf/ in the webserver&nbsp;</span>HTML<span>&nbsp;documents subdirecto=
+ry where you copied Zabbix PHP files to(/var/www/html/zabbix/conf/zabbix.co=
+nf.php).<a href=3D"/download/attachments/106332723/zabbix.conf.php?version=
+=3D1&amp;modificationDate=3D1543301968563&amp;api=3Dv2" data-linked-resourc=
+e-id=3D"106332728" data-linked-resource-version=3D"1" data-linked-resource-=
+type=3D"attachment" data-linked-resource-default-alias=3D"zabbix.conf.php" =
+data-linked-resource-content-type=3D"application/octet-stream" data-linked-=
+resource-container-id=3D"106332723" data-linked-resource-container-version=
+=3D"1">zabbix.conf.php</a>&nbsp;</span></span></span></span></li>
+<li><span><span><span><span>Modify configuration file (mcedit /usr/local/et=
+c/zabbix_server.conf)&nbsp;<a href=3D"/download/attachments/106332723/zabbi=
+x_server.conf?version=3D1&amp;modificationDate=3D1543301968502&amp;api=3Dv2=
+" data-linked-resource-id=3D"106332726" data-linked-resource-version=3D"1" =
+data-linked-resource-type=3D"attachment" data-linked-resource-default-alias=
+=3D"zabbix_server.conf" data-linked-resource-content-type=3D"application/oc=
+tet-stream" data-linked-resource-container-id=3D"106332723" data-linked-res=
+ource-container-version=3D"1">zabbix_server.conf</a>&nbsp;&nbsp;<a href=3D"=
+/download/attachments/106332723/zabbix_agentd.conf?version=3D1&amp;modifica=
+tionDate=3D1543301968533&amp;api=3Dv2" data-linked-resource-id=3D"106332727=
+" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachmen=
+t" data-linked-resource-default-alias=3D"zabbix_agentd.conf" data-linked-re=
+source-content-type=3D"application/octet-stream" data-linked-resource-conta=
+iner-id=3D"106332723" data-linked-resource-container-version=3D"1">zabbix_a=
+gentd.conf</a>&nbsp;</span></span></span></span></li>
+<li><span><span><span><span>Create user account</span></span></span></span>=
+<p>&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Zabbix user creation</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">groupadd za=
+bbix
+useradd -g zabbix zabbix</pre>=20
+</div>
+</div></li>
+<li><p>Start Zabbix server using zabbix_server command (as zabbix user)</p>=
+</li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Start Zabbix server</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">cd /usr/loc=
+al/sbin/
+ ./zabbix_server
+sudo systemctl restart httpd.service</pre>=20
+</div>
+</div></li>
+<li><p>Create zabbix_server and zabbix_agent systemd units&nbsp;<a href=3D"=
+/download/attachments/106332723/zabbix-agent.service?version=3D1&amp;modifi=
+cationDate=3D1543301968459&amp;api=3Dv2" data-linked-resource-id=3D"1063327=
+25" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachm=
+ent" data-linked-resource-default-alias=3D"zabbix-agent.service" data-linke=
+d-resource-content-type=3D"application/octet-stream" data-linked-resource-c=
+ontainer-id=3D"106332723" data-linked-resource-container-version=3D"1">zabb=
+ix-agent.service</a>&nbsp;<a href=3D"/download/attachments/106332723/zabbix=
+-server.service?version=3D1&amp;modificationDate=3D1543301968380&amp;api=3D=
+v2" data-linked-resource-id=3D"106332724" data-linked-resource-version=3D"1=
+" data-linked-resource-type=3D"attachment" data-linked-resource-default-ali=
+as=3D"zabbix-server.service" data-linked-resource-content-type=3D"applicati=
+on/octet-stream" data-linked-resource-container-id=3D"106332723" data-linke=
+d-resource-container-version=3D"1">zabbix-server.service</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Zabbix server and Zabbix agent systemd unit</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">mcedit /etc=
+/systemd/system/zabbix-server.service
+mcedit /etc/systemd/system/zabbix-agent.service
+systemctl daemon-reload
+systemctl start zabbix-server.service
+systemctl start zabbix-agent.service</pre>=20
+</div>
+</div></li>
+<li>Test your Zabbix server!<br><span class=3D"confluence-embedded-file-wra=
+pper"><img class=3D"confluence-embedded-image confluence-external-resource"=
+ alt=3D"login.png" src=3D"https://www.zabbix.com/documentation/3.2/_media/m=
+anual/quickstart/login.png?cache=3D&amp;w=3D386&amp;h=3D431&amp;tok=3Da36ca=
+d" data-image-src=3D"https://www.zabbix.com/documentation/3.2/_media/manual=
+/quickstart/login.png?cache=3D&amp;w=3D386&amp;h=3D431&amp;tok=3Da36cad"></=
+span><br><br><br><br></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_232_732465727.1565070206654--

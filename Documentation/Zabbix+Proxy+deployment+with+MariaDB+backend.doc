@@ -1,0 +1,395 @@
+Message-ID: <1053659546.231.1565070199195.JavaMail.confluence@rsb-aspmosconf1.rosbank.rus.socgen>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_230_2113936787.1565070199192"
+
+------=_Part_230_2113936787.1565070199192
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Zabbix Proxy deployment with MariaDB backend</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Zabbix Proxy deployment with MariaDB backend</h1>
+    <div class=3D"Section1">
+        <div>
+Zabbix proxy needs to distributed monitoring for different segment out netw=
+ork. Actually we have 3 proxy servers.
+</div>
+<div>
+&nbsp;
+</div>
+<div>
+<p>&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">RSB-ISPMOSPRX1</td>
+<td class=3D"confluenceTd">eno16780032:&nbsp;10.46.87.202</td>
+<td class=3D"confluenceTd">DC1_INT_Main</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">RSB-ISPMOSPRX7</td>
+<td class=3D"confluenceTd">eno16780032:&nbsp;10.45.129.6</td>
+<td class=3D"confluenceTd">DC0_INT_Prod</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">RSBZ-ISPMOSPRX2</td>
+<td class=3D"confluenceTd">eno16780032:&nbsp;10.49.24.32</td>
+<td class=3D"confluenceTd">DC0_DMZ_INT_IN</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Below you can see action plan for deployment Zabbix proxy based on Zabbi=
+x sources &nbsp;version 3.0.10 and MariaDB.</p>
+<p>All actions recommend to execute using root account.</p>
+<ol>
+<li>Make sure that your host is present in /etc/hosts</li>
+<li><p class=3D"auto-cursor-target"><span><span>Install proxy and make sure=
+ to insert correct database type</span></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Zabbix proxy install</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">yum install=
+ zabbix-proxy-mysql.x86_64 -y</pre>=20
+</div>
+</div></li>
+<li><p class=3D"auto-cursor-target"><span><span>Install Zabbix proxy databa=
+se</span></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Zabbix DBMS install</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">yum install=
+ mariadb-server mariadb -y
+systemctl start mariadb</pre>=20
+</div>
+</div></li>
+<li><p class=3D"auto-cursor-target"><span>Create Zabbix database and user o=
+n MySQL by the following commands,</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Create zabbix_proxy database</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">create data=
+base zabbix_proxy character set utf8 collate utf8_bin;
+grant all privileges on zabbix_proxy.* to zabbix@localhost identified by 'Z=
+@bbixPr0xy';
+quit;</pre>=20
+</div>
+</div></li>
+<li><p class=3D"auto-cursor-target"><span>Import initial schema. Make sure =
+to insert correct version for&nbsp;</span><code>3.0.X</code></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Create zabbix_proxy database</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">zcat /usr/s=
+hare/doc/zabbix-proxy-mysql-3.0.10/schema.sql.gz | mysql -uzabbix -pZ@bbixP=
+r0xy zabbix_proxy</pre>=20
+</div>
+</div></li>
+<li><p class=3D"auto-cursor-target">Edit zabbix proxy configuration file my=
+sq</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Configuration</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">vim /etc/za=
+bbix/zabbix_proxy.conf</pre>=20
+</div>
+</div></li>
+<li><p class=3D"auto-cursor-target">Grant read-write privillegies to Zabbix=
+ user to configuration file</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Configuration</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">chown zabbi=
+x:zabbix /etc/zabbix/zabbix_proxy.conf</pre>=20
+</div>
+</div></li>
+<li><p class=3D"auto-cursor-target">Edit zabbix proxy systemd unit configur=
+ation file</p></li>
+<li><p class=3D"auto-cursor-target">Start &nbsp;Zabbix proxy process</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Configuration</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">systemctl d=
+aemon-reload
+systemctl restart zabbix-proxy</pre>=20
+</div>
+</div></li>
+<li><p class=3D"auto-cursor-target">To configure a proxy in Zabbix frontend=
+, do the following:</p>
+<ol>
+<li><p class=3D"auto-cursor-target">Go to <em>Administration&nbsp;&nbsp;=E2=
+=86=92 Proxies</em></p></li>
+<li><p class=3D"auto-cursor-target">Click on<em> Create Proxy </em>button t=
+o the right</p></li>
+<li>Enter Proxy name and choose Proxy mode <em>Active</em></li>
+<li>Click<em> Add</em><em><br></em></li>
+</ol></li>
+<li>Check data collection<br><br>Configuration files:<br><a href=3D"/downlo=
+ad/attachments/28246018/zabbix_proxy.conf?version=3D1&amp;modificationDate=
+=3D1505886867581&amp;api=3Dv2" data-linked-resource-id=3D"29721175" data-li=
+nked-resource-version=3D"1" data-linked-resource-type=3D"attachment" data-l=
+inked-resource-default-alias=3D"zabbix_proxy.conf" data-linked-resource-con=
+tent-type=3D"application/octet-stream" data-linked-resource-container-id=3D=
+"28246018" data-linked-resource-container-version=3D"9">zabbix_proxy.conf</=
+a><br><em><br></em></li>
+</ol>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_230_2113936787.1565070199192--

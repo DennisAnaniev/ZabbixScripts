@@ -1,0 +1,363 @@
+Message-ID: <572686547.207.1565070075793.JavaMail.confluence@rsb-aspmosconf1.rosbank.rus.socgen>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_206_44950066.1565070075790"
+
+------=_Part_206_44950066.1565070075790
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Zabbix monitoring IBM MQ queues</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Zabbix monitoring IBM MQ queues</h1>
+    <div class=3D"Section1">
+        <p>Monitoring &nbsp;queues IBM MQ used zabbix sender and external b=
+ash script.</p>
+<p>Bash script collect data from MQ using MQ API command and convert them t=
+o format supported zabbix sender.</p>
+<p>This data must include JSON section for discovering arll available queue=
+s, UNIXTIME, &nbsp;and data.</p>
+<p>You can see example of this file in attachment.</p>
+<p>Monitoring process include:</p>
+<ol>
+<li>Create bash scripts &nbsp;on target host in directory /etc/zabbix/scrip=
+ts. If directory not exist, you need create it.</li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>queue,sh</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">/bin/date +=
+'%s' &gt; /tmp/mq.data.timestamp;
+sh -c "echo display queue \(*\) | /opt/mqm/bin/runmqsc QM1" | awk -F'[()]' =
+'/QUEUE/ {print $2}' | (while read MQMQUEUE; do echo -n "$MQMQUEUE "; MQMQU=
+EUE=3D$MQMQUEUE sh -c 'echo "DIS QL($MQMQUEUE) CURDEPTH" | /opt/mqm/bin/run=
+mqsc QM1' | awk -F'[()]' '/  CURDEPTH/ { if ( $2 =3D=3D "QLOCAL" ) print $4=
+; else print $2; }'; done;) &gt; /tmp/mq.data.temp;
+echo "$(hostname -s) queue.discovery $(&lt;/tmp/mq.data.timestamp) {$(awk '=
+BEGIN {ORS=3D""; print "\"data\":["; sep=3D""; } {print sep"{\"{#QUEUE}\":\=
+""$1"\"}"; sep=3D","} END { print "]"}' /tmp/mq.data.temp)}" &gt; /tmp/expo=
+rt.queue.pools;
+awk -v TST=3D$(&lt;/tmp/mq.data.timestamp) -v HOST=3D$(hostname -s) '{ prin=
+t HOST" queue.pool["$1",State] "TST" "$2 }' /tmp/mq.data.temp &gt;&gt; /tmp=
+/export.queue.pools;
+rm -f /tmp/mq.data.temp /tmp/mq.data.timestamp;</pre>=20
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>queue_cron.sh</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">#!/bin/bash
+/bin/date
+/etc/zabbix/scripts/queue.sh
+/usr/bin/zabbix_sender -z 10.45.129.32 -T -s rsb-aspmos0ib1(=D0=B8=D0=BC=D1=
+=8F =D1=85=D0=BE=D1=81=D1=82=D0=B0 =D0=BD=D0=B0 =D0=BA=D0=BE=D1=82=D0=BE=D1=
+=80=D1=8B=D0=B9 =D0=B1=D1=83=D0=B4=D0=B5=D0=BC =D0=BE=D1=82=D0=BF=D1=80=D0=
+=B0=D0=B2=D0=BB=D1=8F=D1=82=D1=8C =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5, =D0=
+=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D1=81=D0=BE=D0=B2=D0=BF=D0=B0=D0=B4=D0=
+=B0=D1=82=D1=8C =D0=BF=D0=BE=D0=BB=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E =D1=
+=81 =D0=B8=D0=BC=D0=B5=D0=BD=D0=B5=D0=BC =D1=85=D0=BE=D1=81=D1=82=D0=B0 =D0=
+=B2 GUI Zabbix, =D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B0=D1=8F =D1=80=D0=B5=D0=
+=B3=D0=B8=D1=81=D1=82=D1=80) -i /tmp/export.queue.pools -- vv</pre>=20
+</div>
+</div></li>
+<li><p>Grant privillegies on this script read and execut=D1=83 to mqm user.=
+</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Grant privilegies</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">chmod 740 q=
+ueue.sh=20
+chmod 740 queue_cron.sh
+chown mqm queue.sh=20
+chgrp mqm queue.sh=20
+chown mqm queue_cron.sh
+chgrp mqm queue_cron.sh </pre>=20
+</div>
+</div></li>
+<li><p>Install on target server zabbix sender.<br><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Install zabbix sender</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">sudo yum in=
+stall zabbix-sender</pre>=20
+</div>
+</div></li>
+<li><p>Create cron task for executing this script and transfer data using z=
+abbix_sender and&nbsp;queue_cron.sh.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Crontab job</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">*/5 * * * *=
+  /etc/zabbix/scripts/queue_cron.sh &amp;&gt;&gt; /etc/zabbix/scripts/zabbi=
+x_sender.log</pre>=20
+</div>
+</div></li>
+<li>Map Zabbix template&nbsp;Template Middleware IBM MQ query</li>
+<li>Create file /etc/zabbix/scripts/zabbix_sender.log</li>
+<li><p>Configure log rotation for&nbsp;/etc/zabbix/scripts/zabbix_sender.lo=
+g&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Log rotation zabbix_sender.log</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">/etc/zabbix=
+/scripts/zabbix_sender.log  {
+    missingok
+    monthly
+    notifempty
+    compress
+    create 0744 mqm mqm
+}
+
+</pre>=20
+</div>
+</div></li>
+</ol>
+<p>&nbsp;</p>
+    </div>
+</body>
+</html>
+------=_Part_206_44950066.1565070075790--

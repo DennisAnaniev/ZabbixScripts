@@ -1,0 +1,273 @@
+
+Group: 
+  DHUB_CG: 
+    Copy stats: 
+      DHUB_COPY: 
+        SAN traffic:
+          Current throughput: 74400 bps
+          Average  throughput: 134192 bps
+          Current write IOPS: 1
+          Average write IOPS: 4
+
+        Journal:
+          Usage: 958.10 GB
+          Total: 0.95 TB
+          Latest image: Tue Oct 9 2018 10:32:21 
+          Current image: Mon Oct 8 2018 15:01:51 
+          Logged writes usage: 1.61%
+          Journal lag: 315.09 GB
+          Protection window:
+            Current: 
+              Value: 4 days 10 hr
+
+              Status: SUFFICIENT
+            Predicted: 
+              Value: 2 days 18 hr
+
+              Status: SUFFICIENT
+          Average journal compression ratio:N/A
+          Mode: Normal
+      DHUB_PROD: 
+        SAN traffic:
+          Current throughput: 7432 bps
+          Average  throughput: 180248 bps
+          Current write IOPS: 1
+          Average write IOPS: 6
+
+    Link stats: 
+      DHUB_PROD->DHUB_COPY: 
+
+        Replication:
+          Lag:
+            Time: N/A
+            Data: 0.00 B
+            Writes: 0
+
+          WAN traffic: 138016 bps
+          Current bandwidth reduction ratio: 1
+          Average bandwidth reduction ratio: 1
+          Current deduplication ratio:N/A
+          Average deduplication ratio:N/A
+  DWH_CG: 
+    Copy stats: 
+      DWH_COPY: 
+        SAN traffic:
+          Current throughput: 49584 bps
+          Average  throughput: 68008 bps
+          Current write IOPS: 1
+          Average write IOPS: 2
+
+        Journal:
+          Usage: 2.13 TB
+          Total: 2.18 TB
+          Latest image: Tue Oct 9 2018 10:32:21 
+          Current image: Mon Oct 8 2018 15:01:51 
+          Logged writes usage: 0.39%
+          Journal lag: 448.39 GB
+          Protection window:
+            Current: 
+              Value: 6 days 4 hr
+
+              Status: SUFFICIENT
+            Predicted: 
+              Value: 4 days 9 hr
+
+              Status: SUFFICIENT
+          Average journal compression ratio:N/A
+          Mode: Normal
+      DWH_PROD: 
+        SAN traffic:
+          Current throughput: 104 Mbps
+          Average  throughput: 110 Mbps
+          Current write IOPS: 1395
+          Average write IOPS: 911
+
+    Link stats: 
+      DWH_PROD->DWH_COPY: 
+
+        Replication:
+          Lag:
+            Time: 0 sec
+            Data: 8.44 MB
+            Writes: 713
+
+          WAN traffic: 77 Mbps
+          Current bandwidth reduction ratio: 1
+          Average bandwidth reduction ratio: 1
+          Current deduplication ratio:N/A
+          Average deduplication ratio:N/A
+  IIS_CG: 
+    Copy stats: 
+      IIS_COPY: 
+
+        Journal:
+          Usage: 336.62 GB
+          Total: 345.56 GB
+          Latest image: Tue Oct 9 2018 10:32:22 
+          Current image: Tue Oct 9 2018 10:32:16 
+          Journal lag: 58.67 MB
+          Protection window:
+            Current: 
+              Value: 2 days 21 hr
+
+              Status: SUFFICIENT
+            Predicted: 
+              Value: 1 days 18 hr
+
+              Status: SUFFICIENT
+          Average journal compression ratio:N/A
+          Mode: Normal
+      IIS_PROD: 
+        SAN traffic:
+          Current throughput: 38 Mbps
+          Average  throughput: 31 Mbps
+          Current write IOPS: 1076
+          Average write IOPS: 793
+
+    Link stats: 
+      IIS_PROD->IIS_COPY: 
+
+        Replication:
+          Lag:
+            Time: 0 sec
+            Data: 3.21 MB
+            Writes: 1057
+
+          WAN traffic: 33 Mbps
+          Current bandwidth reduction ratio: 1
+          Average bandwidth reduction ratio: 1
+          Current deduplication ratio:N/A
+          Average deduplication ratio:N/A
+  MART_CG: 
+    Copy stats: 
+      MART_COPY: 
+        SAN traffic:
+          Current throughput: 11904 bps
+          Average  throughput: 151584 bps
+          Current write IOPS: 1
+          Average write IOPS: 4
+
+        Journal:
+          Usage: 5.68 TB
+          Total: 5.74 TB
+          Latest image: Tue Oct 9 2018 10:32:22 
+          Current image: Mon Oct 8 2018 15:01:51 
+          Logged writes usage: 0.18%
+          Journal lag: 1.23 TB
+          Protection window:
+            Current: 
+              Value: 3 days 17 hr
+
+              Status: SUFFICIENT
+            Predicted: 
+              Value: 3 days 1 hr
+
+              Status: SUFFICIENT
+          Average journal compression ratio:N/A
+          Mode: Normal
+      MART_PROD: 
+        SAN traffic:
+          Current throughput: 28 Mbps
+          Average  throughput: 757 Mbps
+          Current write IOPS: 446
+          Average write IOPS: 2506
+
+    Link stats: 
+      MART_PROD->MART_COPY: 
+
+        Replication:
+          Lag:
+            Time: 0 sec
+            Data: 4.87 MB
+            Writes: 532
+
+          WAN traffic: 21 Mbps
+          Current bandwidth reduction ratio: 1.0007
+          Average bandwidth reduction ratio: 1
+          Current deduplication ratio:N/A
+          Average deduplication ratio:N/A
+  TEST_DB2_CG: 
+    Copy stats: 
+      DB2_COPY: 
+
+        Journal:
+          Usage: 22.02 GB
+          Total: 30.73 GB
+          Latest image: Tue Oct 9 2018 10:32:21 
+          Current image: Tue Oct 9 2018 09:29:01 
+          Journal lag: 116.99 MB
+          Protection window:
+            Current: 
+              Value: 3 weeks
+
+              Status: SUFFICIENT
+            Predicted: 
+              Value: 1 months
+
+              Status: SUFFICIENT
+          Average journal compression ratio:N/A
+          Mode: Normal
+      TEST_DB2: 
+        SAN traffic:
+          Current throughput: 89264 bps
+          Average  throughput: 76216 bps
+          Current write IOPS: 2
+          Average write IOPS: 3
+
+    Link stats: 
+      TEST_DB2->DB2_COPY: 
+
+        Replication:
+          Lag:
+            Time: N/A
+            Data: 0.00 B
+            Writes: 0
+
+          WAN traffic: 84416 bps
+          Current bandwidth reduction ratio: 0.75
+          Average bandwidth reduction ratio: 1
+          Current deduplication ratio:N/A
+          Average deduplication ratio:N/A
+  TEST_IIS_CG: 
+    Copy stats: 
+      IIS_COPY: 
+
+        Journal:
+          Usage: 10.95 GB
+          Total: 30.73 GB
+          Latest image: Tue Oct 9 2018 10:32:21 
+          Current image: Sun Oct 7 2018 19:11:16 
+          Journal lag: 129.05 MB
+          Protection window:
+            Current: 
+              Value: 4 months 1 weeks
+
+              Status: SUFFICIENT
+            Predicted: 
+              Value: 10 months 2 weeks
+
+              Status: SUFFICIENT
+          Average journal compression ratio:N/A
+          Mode: Normal
+      TEST_IIS: 
+        SAN traffic:
+          Current throughput: 0 bps
+          Average  throughput: 1616 bps
+          Current write IOPS: 0
+          Average write IOPS: 1
+
+    Link stats: 
+      TEST_IIS->IIS_COPY: 
+
+        Replication:
+          Lag:
+            Time: N/A
+            Data: 0.00 B
+            Writes: 0
+
+          WAN traffic: 1688 bps
+          Current bandwidth reduction ratio: 0.5
+          Average bandwidth reduction ratio: 0.75
+          Current deduplication ratio:N/A
+          Average deduplication ratio:N/A
+

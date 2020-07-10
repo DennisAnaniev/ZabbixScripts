@@ -1,0 +1,287 @@
+Message-ID: <1572993365.211.1565070094896.JavaMail.confluence@rsb-aspmosconf1.rosbank.rus.socgen>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_210_159980183.1565070094891"
+
+------=_Part_210_159980183.1565070094891
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Zabbix monitoring Rabbit MQ</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Zabbix monitoring Rabbit MQ</h1>
+    <div class=3D"Section1">
+        <p>=D0=94=D0=BB=D1=8F =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=
+=BA=D0=B8 =D0=BC=D0=BE=D0=BD=D0=B8=D1=82=D0=BE=D1=80=D0=B8=D0=BD=D0=B3=D0=
+=B0 RabbitMQ =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =
+=D1=81=D0=BB=D0=B5=D0=B4=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=B8=D0=BD=D1=81=
+=D1=82=D1=80=D1=83=D0=BA=D1=86=D0=B8=D0=B8:</p>
+<p>&nbsp;<a href=3D"https://github.com/jasonmcintosh/rabbitmq-zabbix" class=
+=3D"external-link" rel=3D"nofollow">https://github.com/jasonmcintosh/rabbit=
+mq-zabbix</a></p>
+<ol>
+<li>=D0=A3=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B0 =D1=81=D0=BA=D1=
+=80=D0=B8=D0=BF=D1=82=D0=BE=D0=B2 =D0=BC=D0=BE=D0=BD=D0=B8=D1=82=D0=BE=D1=
+=80=D0=B8=D0=BD=D0=B3=D0=B0 =D0=BD=D0=B0 =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=
+=80=D1=8B =D1=81 RabbitMQ =D0=B2 /etc/zabbix/scripts/rabbitmq/</li>
+<li>=D0=9F=D1=80=D0=B0=D0=B2=D0=B0 =D0=B2=D0=BB=D0=B0=D0=B4=D0=B5=D0=BD=D0=
+=B8=D1=8F =D0=BD=D0=B0 =D0=BF=D0=B0=D0=BF=D0=BA=D1=83 /etc/zabbix/scripts/r=
+abbitmq/ =D0=B8 =D1=84=D0=B0=D0=B9=D0=BB=D1=8B =D0=B2 =D0=BD=D0=B5=D0=B9 =
+=D0=BC=D0=B5=D0=BD=D1=8F=D0=B5=D0=BC =D0=BD=D0=B0 zabbix:zabbix</li>
+<li>=D0=98=D0=BC=D0=BF=D0=BE=D1=80=D1=82 =D1=88=D0=B0=D0=B1=D0=BB=D0=BE=D0=
+=BD=D0=B0 =D0=B2 Zabbix</li>
+<li>=D0=A3=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B0 zabbix_sender&nb=
+sp;=D0=BD=D0=B0 =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80 =D1=81 RabbitMQ</li>
+<li>=D0=92 RabbitMQ =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D1=91=D1=82=D1=81=D1=8F =
+=D0=BD=D0=BE=D0=B2=D1=8B=D0=B9 =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=
+=D0=B0=D1=82=D0=B5=D0=BB=D1=8C =D0=B4=D0=BB=D1=8F Zabbix:
+<ol>
+<li>&nbsp;<code>rabbitmqctl</code><code> </code><code>add</code><code>_</co=
+de><code>user</code><code> </code><code>zabbix</code><code> </code><code>pa=
+ss</code><code> </code><code>=E2=80=93 =D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C=
+ =D0=B4=D0=BB=D1=8F =D0=A3=D0=97</code></li>
+<li><code>rabbitmqctl set_user_tags zabbix monitoring</code></li>
+<li><code>rabbitmqctl set_permissions -p / zabbix '^aliveness-test$' '^amq\=
+.default$' '^aliveness-test$'</code></li>
+</ol></li>
+<li>=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D1=91=D0=BC =D1=84=D0=B0=D0=B9=D0=BB /et=
+c/zabbix/zabbix_agentd.d/rabbitmq.conf =D0=B8 =D0=B4=D0=B0=D1=91=D0=BC =D0=
+=BF=D1=80=D0=B0=D0=B2=D0=B0 =D0=BD=D0=B0 =D0=BD=D0=B5=D0=B3=D0=BE =D0=B4=D0=
+=BB=D1=8F zabbix:zabbix</li>
+<li>=D0=92 =D1=84=D0=B0=D0=B9=D0=BB =D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=BB=D1=
+=8F=D0=B5=D0=BC =D0=BE=D0=B4=D0=BD=D1=83 =D1=81=D1=82=D1=80=D0=BE=D1=87=D0=
+=BA=D1=83:
+<ol>
+<li>UserParameter=3Drabbitmq[*],/etc/zabbix/scripts/rabbitmq/api.py --usern=
+ame=3Dzabbix --password=3D<code>=D0=BF=D0=B0=D1=80=D0=BE=D0=BB=D1=8C =D0=B4=
+=D0=BB=D1=8F =D0=A3=D0=97</code> --check=3D$1 --metric=3D$2 =E2=80=93filter=
+s=3D$3</li>
+</ol></li>
+<li>8. =D0=92=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D1=8F=D0=B5=D0=BC =D1=80=D0=B5=
+=D1=81=D1=82=D0=B0=D1=80=D1=82 Zabbix =D0=B0=D0=B3=D0=B5=D0=BD=D1=82=D0=B0.=
+</li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_210_159980183.1565070094891--

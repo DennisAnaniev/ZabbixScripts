@@ -1,0 +1,489 @@
+Message-ID: <138712010.229.1565070191224.JavaMail.confluence@rsb-aspmosconf1.rosbank.rus.socgen>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_228_2026202954.1565070191220"
+
+------=_Part_228_2026202954.1565070191220
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Zabbix Proxy deployment</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Zabbix Proxy deployment</h1>
+    <div class=3D"Section1">
+        <div>
+Zabbix proxy needs to distributed monitoring for different segment out netw=
+ork. Actually we have 2 proxy servers.
+</div>
+<div>
+&nbsp;
+</div>
+<div>
+<p>&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">RSB-ISPMOSPRX1</td>
+<td class=3D"confluenceTd">eno16780032:&nbsp;10.46.87.202</td>
+<td class=3D"confluenceTd">DC1_INT_Main</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">RSB-ISPMOSPRX7</td>
+<td class=3D"confluenceTd">eno16780032:&nbsp;10.45.129.6</td>
+<td class=3D"confluenceTd">DC0_INT_Prod</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">RSBZ-ISPMOSPRX2</td>
+<td class=3D"confluenceTd">eno16780032:&nbsp;10.49.24.32</td>
+<td class=3D"confluenceTd">DC0_DMZ_INT_IN</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Below you can see action plan for deployment Zabbix proxy based on Zabbi=
+x sources &nbsp;version 2.4.8 and Oracle XE.</p>
+<p>All actions recommend to execute using root account.</p>
+<ol>
+<li>Make sure that your host is present in /etc/hosts</li>
+<li>yum install unixODBC unixODBC-devel OpenIPMI OpenIPMI-devel gcc php php=
+-cli php-ldap libxml2-devel net-snmp net-snmp-devel OpenIPMI-libs ncurses l=
+ibssh2 libcurl-devel java-1.8.0-openjdk-devel autoconf automake libssh2-dev=
+el</li>
+<li>unzip oracle-xe-11.2.0-1.0.x86_64.rpm.zip</li>
+<li>rpm -ivh&nbsp;oracle-xe-11.2.0-1.0.x86_64.rpm.</li>
+<li>/etc/init.d/oracle-xe configure</li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Create oracle database</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: true; theme: Midnight" data-theme=3D"Midnight"># sys pwd=3D
+chocolatebanana
+. /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh =20
+sqlplus sys/chocolatebanana as sysdba
+alter system set sessions=3D300 scope=3Dspfile;
+alter database add logfile size 256M;
+alter database add logfile size 256M;
+alter system switch logfile;
+alter system switch logfile;
+alter system checkpoint;
+alter database drop logfile group 1;
+alter database drop logfile group 2;
+alter database add logfile size 256M;
+alter database add logfile size 256M;
+ALTER DATABASE DATAFILE '/u01/app/oracle/oradata/XE/users.dbf' AUTOEXTEND O=
+N NEXT 100M MAXSIZE 2G;
+alter system set db_recovery_file_dest_size=3D2G;
+shutdown immediate
+startup
+
+CREATE PROFILE APPLICATIONS LIMIT
+  SESSIONS_PER_USER DEFAULT
+  CPU_PER_SESSION DEFAULT
+  CPU_PER_CALL DEFAULT
+  CONNECT_TIME DEFAULT
+  IDLE_TIME DEFAULT
+  LOGICAL_READS_PER_SESSION DEFAULT
+  LOGICAL_READS_PER_CALL DEFAULT
+  COMPOSITE_LIMIT DEFAULT
+  PRIVATE_SGA DEFAULT
+  FAILED_LOGIN_ATTEMPTS UNLIMITED
+  PASSWORD_LIFE_TIME UNLIMITED
+  PASSWORD_REUSE_TIME 10
+  PASSWORD_REUSE_MAX 10
+  PASSWORD_LOCK_TIME UNLIMITED
+  PASSWORD_GRACE_TIME UNLIMITED
+  PASSWORD_VERIFY_FUNCTION DEFAULT;
+
+CREATE USER ZABBIX_PROXY
+  IDENTIFIED BY cornybig
+  DEFAULT TABLESPACE USERS
+  TEMPORARY TABLESPACE TEMP
+  PROFILE APPLICATIONS
+  ACCOUNT UNLOCK;
+  GRANT CONNECT TO ZABBIX_PROXY;
+  GRANT RESOURCE TO ZABBIX_PROXY;
+  ALTER USER ZABBIX_PROXY DEFAULT ROLE ALL;
+  GRANT CREATE VIEW TO ZABBIX_PROXY;
+  GRANT UNLIMITED TABLESPACE TO ZABBIX_PROXY;
+conn ZABBIX_PROXY/cornybig
+alter session set NLS_LENGTH_SEMANTICS=3DCHAR;
+@/home/rba000011/schema.sql
+exit
+###################################################
+XE =3D
+  (DESCRIPTION =3D
+    (ADDRESS =3D (PROTOCOL =3D TCP)(HOST =3D rsb-ispmosprx7.rosbank.rus.soc=
+gen)(PORT =3D 1521))
+    (CONNECT_DATA =3D
+      (SERVER =3D DEDICATED)
+      (SERVICE_NAME =3D XE)
+    )
+  )</pre>=20
+</div>
+</div></li>
+<li><p>export LD_LIBRARY_PATH=3D/u01/app/oracle/product/11.2.0/xe/lib</p></=
+li>
+<li>cd &lt;Zabbix source directory&gt;</li>
+<li>chmod 755 configure</li>
+<li><p>./configure --enable-proxy --enable-agent --with-oracle=3D$ORACLE_HO=
+ME --with-oracle-lib=3D/u01/app/oracle/product/11.2.0/xe/lib --with-oracle-=
+include=3D/u01/app/oracle/product/11.2.0/xe/rdbms/public --with-net-snmp --=
+with-openipmi --with-unixodbc --with-libxml2 --with-openssl --with-ssh2 --w=
+ith-libcurl --enable-java</p></li>
+<li>touch <a href=3D"http://configure.ac" class=3D"external-link" rel=3D"no=
+follow">configure.ac</a> aclocal.m4 configure <a href=3D"http://Makefile.am=
+" class=3D"external-link" rel=3D"nofollow">Makefile.am</a> <a href=3D"http:=
+//Makefile.in" class=3D"external-link" rel=3D"nofollow">Makefile.in</a></li=
+>
+<li>autoreconf -ivf</li>
+<li>make &amp;&amp; make install</li>
+<li>mcedit /usr/local/etc/zabbix_proxy.conf</li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>zabbix_proxy.conf</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: RDark" data-theme=3D"RDark">ProxyMode=3D0
+Server=3D10.45.129.32
+ServerPort=3D10051
+Hostname=3DRSBZ-ISPMOSPRX2
+DBHost=3Drsbz-ispmosprx2.rsb.dmz.rus.socgen
+#DBHost=3Dlocalhost
+DBName=3Dxe
+DBUser=3Dzabbix_proxy
+AllowRoot=3D0
+DBPassword=3Dcornybig
+DBPort=3D1521
+ConfigFrequency=3D60
+ProxyOfflineBuffer=3D8
+HeartbeatFrequency=3D60
+HistoryCacheSize=3D16M
+CacheSize=3D8M
+StartPollers=3D15
+ProxyLocalBuffer=3D0
+StartPollersUnreachable=3D3
+HousekeepingFrequency=3D1
+StartTrappers=3D5
+StartPingers=3D1
+CacheSize=3D512M
+Timeout=3D3
+User=3Dzabbix
+DataSenderFrequency=3D10
+FpingLocation=3D/usr/sbin/fping
+StartDBSyncers=3D4
+StartDiscoverers=3D1
+ExternalScripts=3D/usr/lib/zabbix/externalscripts
+LogFile=3D/var/log/zabbix/zabbix_proxy.log
+DebugLevel=3D3
+LogSlowQueries=3D0
+LogFileSize=3D1
+#PidFile=3D/var/run/zabbix/zabbix_proxy.pid=20
+PidFile=3D/tmp/zabbix_proxy.pid
+TmpDir=3D/tmp
+UnavailableDelay=3D60
+UnreachableDelay=3D15</pre>=20
+</div>
+</div></li>
+<li><p>mcedit /etc/systemd/system/zabbix-proxy.service</p></li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Zabbix proxy unit</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: RDark" data-theme=3D"RDark">[Unit]
+Description=3DZabbix Proxy
+After=3Dsyslog.target
+After=3Dnetwork.target
+After=3Dsnmpd.service
+[Service]
+Environment=3D"CONFFILE=3D/usr/local/etc/zabbix_proxy.conf"
+#EnvironmentFile=3D-/etc/sysconfig/zabbix-proxy
+EnvironmentFile=3D/u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh
+Type=3Dforking
+Restart=3Don-failure
+PIDFile=3D/tmp/zabbix_proxy.pid
+User=3Dzabbix
+Group=3Dzabbix
+KillMode=3Dcontrol-group
+ExecStart=3D/usr/local/sbin/zabbix_proxy -c $CONFFILE
+ExecStop=3D/bin/kill -SIGTERM $MAINPID
+RestartSec=3D10s
+[Install]
+WantedBy=3Dmulti-user.target</pre>=20
+</div>
+</div></li>
+<li><p>chmod 755 /etc/systemd/system/zabbix-proxy.service</p></li>
+<li>systemctl daemon-reload</li>
+<li>systemctl enable zabbix-proxy.service</li>
+<li>mcedit /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh&nbsp;</li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Emacs" data-theme=3D"Emacs">LD_LIBRARY_PATH=3D=
+/u01/app/oracle/product/11.2.0/xe/lib
+ORACLE_HOME=3D/u01/app/oracle/product/11.2.0/xe
+ORACLE_SID=3DXE
+PATH=3D$ORACLE_HOME/bin:$PATH</pre>=20
+</div>
+</div></li>
+<li><p>systemctl start zabbix-proxy.service</p></li>
+<li><p>mcedit /usr/local/etc/zabbix_agentd.conf</p></li>
+<li><p>mcedit /etc/systemd/system/zabbix-agent.service</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Emacs" data-theme=3D"Emacs">[Unit]
+Description=3DZabbix Agent Daemon
+After=3Dsyslog.target network.target
+[Service]
+Type=3Dforking
+ExecStart=3D/usr/local/sbin/zabbix_agentd
+ExecReload=3D/usr/local/sbin/zabbix_agentd -R config_cache_reload
+PIDFile=3D/tmp/zabbix_agentd.pid
+User=3Dzabbix
+Group=3Dzabbix
+[Install]
+WantedBy=3Dmulti-user.target</pre>=20
+</div>
+</div><p><br><br></p></li>
+<li><p>systemctl enable zabbix-agent.service</p></li>
+<li>systemctl start zabbix-agent.service</li>
+</ol>
+<p>&nbsp;</p>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_228_2026202954.1565070191220--
